@@ -1,0 +1,12 @@
+com.osc.oscms.common.exception
+com.osc.oscms.common.exception.AssignmentException
+com.osc.oscms.common.exception.AuthException
+com.osc.oscms.common.exception.ClassException
+com.osc.oscms.common.exception.CourseException
+com.osc.oscms.common.exception.MaterialException
+com.osc.oscms.common.exception.QuestionException
+com.osc.oscms.common.exception.StorageException
+com.osc.oscms.common.exception.SubmissionException
+com.osc.oscms.common.exception.UsersManageException
+com.osc.oscms.common.response
+com.osc.oscms.common.util

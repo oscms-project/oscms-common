@@ -1,0 +1,102 @@
+@options
+@packages
+-classpath
+'C:/Users/张腾月/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.4.5/spring-boot-starter-web-3.4.5.jar;C:/Users/张腾月/.m2/repository/org/springframework/boot/spring-boot-starter/3.4.5/spring-boot-starter-3.4.5.jar;C:/Users/张腾月/.m2/repository/org/springframework/boot/spring-boot/3.4.5/spring-boot-3.4.5.jar;C:/Users/张腾月/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.4.5/spring-boot-autoconfigure-3.4.5.jar;C:/Users/张腾月/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.4.5/spring-boot-starter-logging-3.4.5.jar;C:/Users/张腾月/.m2/repository/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.jar;C:/Users/张腾月/.m2/repository/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar;C:/Users/张腾月/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.24.3/log4j-to-slf4j-2.24.3.jar;C:/Users/张腾月/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar;C:/Users/张腾月/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17.jar;C:/Users/张腾月/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar;C:/Users/张腾月/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar;C:/Users/张腾月/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.4.5/spring-boot-starter-json-3.4.5.jar;C:/Users/张腾月/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.3/jackson-datatype-jdk8-2.18.3.jar;C:/Users/张腾月/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.3/jackson-datatype-jsr310-2.18.3.jar;C:/Users/张腾月/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.18.3/jackson-module-parameter-names-2.18.3.jar;C:/Users/张腾月/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.4.5/spring-boot-starter-tomcat-3.4.5.jar;C:/Users/张腾月/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.40/tomcat-embed-core-10.1.40.jar;C:/Users/张腾月/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.40/tomcat-embed-websocket-10.1.40.jar;C:/Users/张腾月/.m2/repository/org/springframework/spring-web/6.2.6/spring-web-6.2.6.jar;C:/Users/张腾月/.m2/repository/org/springframework/spring-beans/6.2.6/spring-beans-6.2.6.jar;C:/Users/张腾月/.m2/repository/io/micrometer/micrometer-observation/1.14.6/micrometer-observation-1.14.6.jar;C:/Users/张腾月/.m2/repository/io/micrometer/micrometer-commons/1.14.6/micrometer-commons-1.14.6.jar;C:/Users/张腾月/.m2/repository/org/springframework/spring-webmvc/6.2.6/spring-webmvc-6.2.6.jar;C:/Users/张腾月/.m2/repository/org/springframework/spring-context/6.2.6/spring-context-6.2.6.jar;C:/Users/张腾月/.m2/repository/org/springframework/spring-expression/6.2.6/spring-expression-6.2.6.jar;C:/Users/张腾月/.m2/repository/org/springframework/boot/spring-boot-starter-security/3.4.5/spring-boot-starter-security-3.4.5.jar;C:/Users/张腾月/.m2/repository/org/springframework/spring-aop/6.2.6/spring-aop-6.2.6.jar;C:/Users/张腾月/.m2/repository/org/springframework/security/spring-security-config/6.4.5/spring-security-config-6.4.5.jar;C:/Users/张腾月/.m2/repository/org/springframework/security/spring-security-core/6.4.5/spring-security-core-6.4.5.jar;C:/Users/张腾月/.m2/repository/org/springframework/security/spring-security-crypto/6.4.5/spring-security-crypto-6.4.5.jar;C:/Users/张腾月/.m2/repository/org/springframework/security/spring-security-web/6.4.5/spring-security-web-6.4.5.jar;C:/Users/张腾月/.m2/repository/org/springframework/boot/spring-boot-starter-validation/3.4.5/spring-boot-starter-validation-3.4.5.jar;C:/Users/张腾月/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.40/tomcat-embed-el-10.1.40.jar;C:/Users/张腾月/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.2.Final/hibernate-validator-8.0.2.Final.jar;C:/Users/张腾月/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar;C:/Users/张腾月/.m2/repository/org/jboss/logging/jboss-logging/3.6.1.Final/jboss-logging-3.6.1.Final.jar;C:/Users/张腾月/.m2/repository/com/fasterxml/classmate/1.7.0/classmate-1.7.0.jar;C:/Users/张腾月/.m2/repository/com/alibaba/fastjson2/fastjson2/2.0.57/fastjson2-2.0.57.jar;C:/Users/张腾月/.m2/repository/com/auth0/java-jwt/4.4.0/java-jwt-4.4.0.jar;C:/Users/张腾月/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar;C:/Users/张腾月/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar;C:/Users/张腾月/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar;C:/Users/张腾月/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar;C:/Users/张腾月/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar;C:/Users/张腾月/.m2/repository/org/springframework/spring-core/6.2.6/spring-core-6.2.6.jar;C:/Users/张腾月/.m2/repository/org/springframework/spring-jcl/6.2.6/spring-jcl-6.2.6.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+17
+-sourcepath
+'F:/oscms/oscms-common/src/main/java;F:/oscms/oscms-common/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'F:/oscms/oscms-common/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'oscms-common 1.0.1-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'oscms-common 1.0.1-SNAPSHOT API'
+com.osc.oscms.common.exception.AssignmentException
+com.osc.oscms.common.exception.AuthException
+com.osc.oscms.common.exception
+com.osc.oscms.common.exception.ClassException
+com.osc.oscms.common.exception.CourseException
+com.osc.oscms.common.exception.MaterialException
+com.osc.oscms.common.exception.QuestionException
+com.osc.oscms.common.exception.StorageException
+com.osc.oscms.common.exception.SubmissionException
+com.osc.oscms.common.exception.UsersManageException
+com.osc.oscms.common.response
+com.osc.oscms.common.util
+C:\Users\张腾月\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.5\spring-boot-starter-web-3.4.5.jar = 1756258905744
+C:\Users\张腾月\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.5\spring-boot-starter-3.4.5.jar = 1747048785734
+C:\Users\张腾月\.m2\repository\org\springframework\boot\spring-boot\3.4.5\spring-boot-3.4.5.jar = 1747048793500
+C:\Users\张腾月\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.5\spring-boot-autoconfigure-3.4.5.jar = 1747048843101
+C:\Users\张腾月\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.5\spring-boot-starter-logging-3.4.5.jar = 1747048793806
+C:\Users\张腾月\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar = 1747048819040
+C:\Users\张腾月\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar = 1747048831067
+C:\Users\张腾月\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar = 1747048782953
+C:\Users\张腾月\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar = 1747048782620
+C:\Users\张腾月\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar = 1747048780889
+C:\Users\张腾月\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar = 1735572798977
+C:\Users\张腾月\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar = 1747048784072
+C:\Users\张腾月\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.5\spring-boot-starter-json-3.4.5.jar = 1756257317351
+C:\Users\张腾月\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.3\jackson-datatype-jdk8-2.18.3.jar = 1756258907760
+C:\Users\张腾月\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar = 1756257318413
+C:\Users\张腾月\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.3\jackson-module-parameter-names-2.18.3.jar = 1756257318480
+C:\Users\张腾月\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.5\spring-boot-starter-tomcat-3.4.5.jar = 1756258907772
+C:\Users\张腾月\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.40\tomcat-embed-core-10.1.40.jar = 1756257320418
+C:\Users\张腾月\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.40\tomcat-embed-websocket-10.1.40.jar = 1756257322489
+C:\Users\张腾月\.m2\repository\org\springframework\spring-web\6.2.6\spring-web-6.2.6.jar = 1756257319619
+C:\Users\张腾月\.m2\repository\org\springframework\spring-beans\6.2.6\spring-beans-6.2.6.jar = 1747049011772
+C:\Users\张腾月\.m2\repository\io\micrometer\micrometer-observation\1.14.6\micrometer-observation-1.14.6.jar = 1747048779881
+C:\Users\张腾月\.m2\repository\io\micrometer\micrometer-commons\1.14.6\micrometer-commons-1.14.6.jar = 1747048795640
+C:\Users\张腾月\.m2\repository\org\springframework\spring-webmvc\6.2.6\spring-webmvc-6.2.6.jar = 1756257320034
+C:\Users\张腾月\.m2\repository\org\springframework\spring-context\6.2.6\spring-context-6.2.6.jar = 1747048995631
+C:\Users\张腾月\.m2\repository\org\springframework\spring-expression\6.2.6\spring-expression-6.2.6.jar = 1747048794977
+C:\Users\张腾月\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.4.5\spring-boot-starter-security-3.4.5.jar = 1756257316848
+C:\Users\张腾月\.m2\repository\org\springframework\spring-aop\6.2.6\spring-aop-6.2.6.jar = 1747048796482
+C:\Users\张腾月\.m2\repository\org\springframework\security\spring-security-config\6.4.5\spring-security-config-6.4.5.jar = 1756258908010
+C:\Users\张腾月\.m2\repository\org\springframework\security\spring-security-core\6.4.5\spring-security-core-6.4.5.jar = 1756258908441
+C:\Users\张腾月\.m2\repository\org\springframework\security\spring-security-crypto\6.4.5\spring-security-crypto-6.4.5.jar = 1756257318424
+C:\Users\张腾月\.m2\repository\org\springframework\security\spring-security-web\6.4.5\spring-security-web-6.4.5.jar = 1756257318021
+C:\Users\张腾月\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.4.5\spring-boot-starter-validation-3.4.5.jar = 1756258906335
+C:\Users\张腾月\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.40\tomcat-embed-el-10.1.40.jar = 1756257320779
+C:\Users\张腾月\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.2.Final\hibernate-validator-8.0.2.Final.jar = 1756258908207
+C:\Users\张腾月\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar = 1735572728482
+C:\Users\张腾月\.m2\repository\org\jboss\logging\jboss-logging\3.6.1.Final\jboss-logging-3.6.1.Final.jar = 1756258907854
+C:\Users\张腾月\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar = 1735572726658
+C:\Users\张腾月\.m2\repository\com\alibaba\fastjson2\fastjson2\2.0.57\fastjson2-2.0.57.jar = 1756258909490
+C:\Users\张腾月\.m2\repository\com\auth0\java-jwt\4.4.0\java-jwt-4.4.0.jar = 1735572730274
+C:\Users\张腾月\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar = 1756258906885
+C:\Users\张腾月\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar = 1756257318177
+C:\Users\张腾月\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar = 1756257343489
+C:\Users\张腾月\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar = 1756346235979
+C:\Users\张腾月\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar = 1747048779735
+C:\Users\张腾月\.m2\repository\org\springframework\spring-core\6.2.6\spring-core-6.2.6.jar = 1756258905975
+C:\Users\张腾月\.m2\repository\org\springframework\spring-jcl\6.2.6\spring-jcl-6.2.6.jar = 1747048784734
+F:\oscms\oscms-common\src\main\java = 1756350910332
+F:\oscms\oscms-common\target\generated-sources\annotations = 1756360757613
+F:\oscms\oscms-common\target\apidocs\allclasses-index.html = 1756360781931
+F:\oscms\oscms-common\target\apidocs\allpackages-index.html = 1756360781934
+F:\oscms\oscms-common\target\apidocs\element-list = 1756360781605
+F:\oscms\oscms-common\target\apidocs\help-doc.html = 1756360781985
+F:\oscms\oscms-common\target\apidocs\index-all.html = 1756360781966
+F:\oscms\oscms-common\target\apidocs\index.html = 1756360781895
+F:\oscms\oscms-common\target\apidocs\member-search-index.js = 1756360781942
+F:\oscms\oscms-common\target\apidocs\module-search-index.js = 1756360781938
+F:\oscms\oscms-common\target\apidocs\overview-summary.html = 1756360781976
+F:\oscms\oscms-common\target\apidocs\overview-tree.html = 1756360781890
+F:\oscms\oscms-common\target\apidocs\package-search-index.js = 1756360781939
+F:\oscms\oscms-common\target\apidocs\search.html = 1756360781970
+F:\oscms\oscms-common\target\apidocs\serialized-form.html = 1756360781721
+F:\oscms\oscms-common\target\apidocs\tag-search-index.js = 1756360781943
+F:\oscms\oscms-common\target\apidocs\type-search-index.js = 1756360781941
