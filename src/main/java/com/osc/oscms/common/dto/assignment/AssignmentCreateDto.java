@@ -40,14 +40,12 @@ public class AssignmentCreateDto {
      * 作业开放时间
      */
     @NotNull(message = "作业开放时间不能为空")
-    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss")
     private LocalDateTime openTime;
 
     /**
      * 作业截止时间
      */
     @NotNull(message = "作业截止时间不能为空")
-    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss")
     private LocalDateTime dueDate;
 
     /**

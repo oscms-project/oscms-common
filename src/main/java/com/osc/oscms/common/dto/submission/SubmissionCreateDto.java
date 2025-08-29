@@ -19,7 +19,6 @@ public class SubmissionCreateDto {
     /**
      * 作业ID
      */
-    @NotNull(message = "作业ID不能为空")
     private Long assignmentId;
 
     /**

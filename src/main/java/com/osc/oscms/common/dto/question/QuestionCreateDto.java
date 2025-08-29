@@ -26,7 +26,7 @@ public class QuestionCreateDto {
      * 题目类型
      */
     @NotBlank(message = "题目类型不能为空")
-    @Pattern(regexp = "^(choice|coding)$", message = "题目类型必须是choice或coding")
+    @Pattern(regexp = "^(choice|coding|short_answer)$", message = "题目类型必须是choice、coding或short_answer")
     private String type;
 
     /**

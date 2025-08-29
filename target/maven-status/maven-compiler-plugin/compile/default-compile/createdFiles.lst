@@ -1,4 +1,5 @@
 com\osc\oscms\common\exception\QuestionException\FavoriteAlreadyExistException.class
+com\osc\oscms\common\dto\clazz\StudentAssignmentSummaryDto.class
 com\osc\oscms\common\response\ApiResponse.class
 com\osc\oscms\common\dto\clazz\ClassCreateDto.class
 com\osc\oscms\common\exception\CourseException\CourseCodeAlreadyExistsException.class
