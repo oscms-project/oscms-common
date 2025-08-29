@@ -57,6 +57,7 @@ E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common
 E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\src\main\java\com\osc\oscms\common\exception\SubmissionException\StudentNotEnrolledException.java
 E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\src\main\java\com\osc\oscms\common\exception\SubmissionException\SubmissionDeadlineExceededException.java
 E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\src\main\java\com\osc\oscms\common\exception\SubmissionException\SubmissionNotFoundException.java
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\src\main\java\com\osc\oscms\common\exception\UnauthorizedException.java
 E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\src\main\java\com\osc\oscms\common\exception\UsersManageException\InvalidRoleException.java
 E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\src\main\java\com\osc\oscms\common\exception\UsersManageException\UserNotFoundException.java
 E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\src\main\java\com\osc\oscms\common\response\ApiResponse.java

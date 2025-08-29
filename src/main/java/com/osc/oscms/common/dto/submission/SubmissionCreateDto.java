@@ -17,6 +17,12 @@ import java.util.List;
 public class SubmissionCreateDto {
 
     /**
+     * 作业ID
+     */
+    @NotNull(message = "作业ID不能为空")
+    private Long assignmentId;
+
+    /**
      * 学生ID
      */
     @NotBlank(message = "学生ID不能为空")

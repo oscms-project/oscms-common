@@ -20,6 +20,11 @@ public class AnswerResultDto {
     private Long questionId;
 
     /**
+     * 题目标题
+     */
+    private String questionTitle;
+
+    /**
      * 学生答案
      */
     private String response;
