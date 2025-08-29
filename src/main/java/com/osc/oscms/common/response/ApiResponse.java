@@ -98,7 +98,7 @@ public class ApiResponse<T> {
      * 判断响应是否成功
      */
     public boolean isSuccess() {
-        return code != null && code == 200;
+        return code != null && code >= 200 && code < 300;
     }
 
     // 别名方法，与控制器中使用的方法名保持一致
