@@ -93,4 +93,24 @@ public class ApiResponse<T> {
     public static <T> ApiResponse<T> internalError(String message) {
         return new ApiResponse<>(500, message, null);
     }
+
+    /**
+     * 判断响应是否成功
+     */
+    public boolean isSuccess() {
+        return code != null && code == 200;
+    }
+
+    // 别名方法，与控制器中使用的方法名保持一致
+    public static <T> ApiResponse<T> ok() {
+        return success();
+    }
+
+    public static <T> ApiResponse<T> ok(T data) {
+        return success(data);
+    }
+
+    public static <T> ApiResponse<T> fail(Integer code, String message) {
+        return error(code, message);
+    }
 }

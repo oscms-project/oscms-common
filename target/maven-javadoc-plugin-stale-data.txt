@@ -24,6 +24,15 @@
 -version
 -windowtitle
 'oscms-common 1.0.1-SNAPSHOT API'
+com.osc.oscms.common.dto.assignment
+com.osc.oscms.common.dto.auth
+com.osc.oscms.common.dto.clazz
+com.osc.oscms.common.dto.common
+com.osc.oscms.common.dto.course
+com.osc.oscms.common.dto.material
+com.osc.oscms.common.dto.question
+com.osc.oscms.common.dto.submission
+com.osc.oscms.common.dto.user
 com.osc.oscms.common.exception.AssignmentException
 com.osc.oscms.common.exception.AuthException
 com.osc.oscms.common.exception
@@ -84,19 +93,19 @@ C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar =
 C:\Users\Lenovo\.m2\repository\org\springframework\spring-core\6.2.6\spring-core-6.2.6.jar = 1747472477514
 C:\Users\Lenovo\.m2\repository\org\springframework\spring-jcl\6.2.6\spring-jcl-6.2.6.jar = 1747471853620
 E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\src\main\java = 1756292805828
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\generated-sources\annotations = 1756368430505
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\allclasses-index.html = 1756368441258
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\allpackages-index.html = 1756368441263
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\element-list = 1756368440939
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\help-doc.html = 1756368441308
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\index-all.html = 1756368441295
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\index.html = 1756368441240
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\member-search-index.js = 1756368441272
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\module-search-index.js = 1756368441265
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\overview-summary.html = 1756368441301
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\overview-tree.html = 1756368441235
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\package-search-index.js = 1756368441269
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\search.html = 1756368441298
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\serialized-form.html = 1756368441058
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\tag-search-index.js = 1756368441274
-E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\type-search-index.js = 1756368441270
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\generated-sources\annotations = 1756436790579
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\allclasses-index.html = 1756437205931
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\allpackages-index.html = 1756437205931
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\element-list = 1756437205435
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\help-doc.html = 1756437205971
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\index-all.html = 1756437205960
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\index.html = 1756437205907
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\member-search-index.js = 1756437205941
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\module-search-index.js = 1756437205936
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\overview-summary.html = 1756437205965
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\overview-tree.html = 1756437205902
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\package-search-index.js = 1756437205936
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\search.html = 1756437205960
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\serialized-form.html = 1756437205612
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\tag-search-index.js = 1756437205941
+E:\previous D\ImportantFiles\Study\SecondS\SE\SE-work\oscms-project\oscms-common\target\apidocs\type-search-index.js = 1756437205941
