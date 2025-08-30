@@ -40,14 +40,11 @@ jobs:
       run: mvn clean compile
 
     - name: Package library
-      run: mvn package -DskipTests
-
-    - name: Generate Javadoc
-      run: mvn javadoc:javadoc
+      run: mvn package -DskipTests -Dmaven.javadoc.skip=true
 
     - name: Publish to GitHub Packages
       if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
-      run: mvn deploy -DskipTests
+      run: mvn deploy -DskipTests -Dmaven.javadoc.skip=true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -55,7 +52,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: oscms-common-artifacts
-        path: |
-          target/*.jar
-          target/site/apidocs/**
+        path: target/*.jar
         retention-days: 30
