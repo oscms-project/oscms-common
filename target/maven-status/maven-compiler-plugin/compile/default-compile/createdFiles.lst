@@ -50,9 +50,11 @@ com\osc\oscms\common\exception\ClassException\InvalidEnrollmentActionException.c
 com\osc\oscms\common\exception\UsersManageException\UserNotFoundException.class
 com\osc\oscms\common\dto\submission\ManualGradeDto.class
 com\osc\oscms\common\exception\StorageException\FileStorageException.class
+com\osc\oscms\common\util\SecurityContextUtil.class
 com\osc\oscms\common\dto\assignment\AssignmentDto.class
 com\osc\oscms\common\exception\AuthException\UsernameAlreadyExistsException.class
 com\osc\oscms\common\exception\BusinessException.class
+com\osc\oscms\common\util\JwtTokenHolder.class
 com\osc\oscms\common\dto\submission\AnswerDto.class
 com\osc\oscms\common\exception\AuthException\UserIdAlreadyExistsException.class
 com\osc\oscms\common\dto\material\MaterialDto.class
